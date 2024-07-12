@@ -146,8 +146,8 @@ importers:
         specifier: ^18
         version: 18.2.4
       autoprefixer:
-        specifier: ^10.4.14
-        version: 10.4.16(postcss@8.4.31)
+        specifier: ^10.4.19
+        version: 10.4.19(postcss@8.4.31)
       eslint:
         specifier: ^7.32.0
         version: 7.32.0
@@ -195,8 +195,8 @@ importers:
         specifier: ^18
         version: 18.2.4
       autoprefixer:
-        specifier: ^10.4.14
-        version: 10.4.16(postcss@8.4.31)
+        specifier: ^10.4.19
+        version: 10.4.19(postcss@8.4.31)
       eslint:
         specifier: ^7.32.0
         version: 7.32.0
@@ -250,8 +250,8 @@ importers:
         specifier: ^18
         version: 18.2.4
       autoprefixer:
-        specifier: ^10.4.14
-        version: 10.4.16(postcss@8.4.31)
+        specifier: ^10.4.19
+        version: 10.4.19(postcss@8.4.31)
       eslint:
         specifier: ^7.32.0
         version: 7.32.0
@@ -305,8 +305,8 @@ importers:
         specifier: ^18
         version: 18.2.4
       autoprefixer:
-        specifier: ^10.4.14
-        version: 10.4.16(postcss@8.4.31)
+        specifier: ^10.4.19
+        version: 10.4.19(postcss@8.4.31)
       eslint:
         specifier: ^7.32.0
         version: 7.32.0
@@ -363,8 +363,8 @@ importers:
         specifier: ^18
         version: 18.2.4
       autoprefixer:
-        specifier: ^10.4.14
-        version: 10.4.16(postcss@8.4.31)
+        specifier: ^10.4.19
+        version: 10.4.19(postcss@8.4.31)
       eslint:
         specifier: ^7.32.0
         version: 7.32.0
@@ -418,8 +418,8 @@ importers:
         specifier: ^18
         version: 18.2.4
       autoprefixer:
-        specifier: ^10.4.14
-        version: 10.4.16(postcss@8.4.31)
+        specifier: ^10.4.19
+        version: 10.4.19(postcss@8.4.31)
       eslint:
         specifier: ^7.32.0
         version: 7.32.0
@@ -476,8 +476,8 @@ importers:
         specifier: ^18
         version: 18.2.4
       autoprefixer:
-        specifier: ^10.4.14
-        version: 10.4.16(postcss@8.4.31)
+        specifier: ^10.4.19
+        version: 10.4.19(postcss@8.4.31)
       eslint:
         specifier: ^7.32.0
         version: 7.32.0
@@ -543,7 +543,7 @@ importers:
         specifier: ^18
         version: 18.2.4
       autoprefixer:
-        specifier: ^10.4.14
+        specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.39)
       eslint:
         specifier: ^7.32.0
@@ -592,8 +592,8 @@ importers:
         specifier: ^18
         version: 18.2.4
       autoprefixer:
-        specifier: ^10.4.14
-        version: 10.4.16(postcss@8.4.31)
+        specifier: ^10.4.19
+        version: 10.4.19(postcss@8.4.31)
       eslint:
         specifier: ^7.32.0
         version: 7.32.0
@@ -1048,13 +1048,13 @@ importers:
         version: link:../../..
       next:
         specifier: canary
-        version: 15.0.0-canary.64(@playwright/test@1.44.1)(react-dom@19.0.0-rc-85acf2d195-20240711)(react@19.0.0-rc-85acf2d195-20240711)
+        version: 15.0.0-canary.64(@playwright/test@1.44.1)(react-dom@19.0.0-rc-df5f2736-20240712)(react@19.0.0-rc-df5f2736-20240712)
       react:
         specifier: rc
-        version: 19.0.0-rc-85acf2d195-20240711
+        version: 19.0.0-rc-df5f2736-20240712
       react-dom:
         specifier: rc
-        version: 19.0.0-rc-85acf2d195-20240711(react@19.0.0-rc-85acf2d195-20240711)
+        version: 19.0.0-rc-df5f2736-20240712(react@19.0.0-rc-df5f2736-20240712)
 
   packages/google:
     dependencies:
@@ -10098,18 +10098,18 @@ packages:
     engines: {node: '>= 4.0.0'}
     dev: true
 
-  /autoprefixer@10.4.16(postcss@8.4.31):
-    resolution: {integrity: sha512-7vd3UC6xKp0HLfua5IjZlcXvGAGy7cBAXTg2lyQ/8WpNhd6SiZ8Be+xm3FyBSYJx5GKcpRCzBh7RH4/0dnY+uQ==}
+  /autoprefixer@10.4.19(postcss@8.4.31):
+    resolution: {integrity: sha512-BaENR2+zBZ8xXhM4pUaKUxlVdxZ0EZhjvbopwnXmxRUfqDmwSpC2lAi/QXvx7NRdPCo1WKEcEF6mV64si1z4Ew==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.22.1
-      caniuse-lite: 1.0.30001591
+      browserslist: 4.23.1
+      caniuse-lite: 1.0.30001637
       fraction.js: 4.3.7
       normalize-range: 0.1.2
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       postcss: 8.4.31
       postcss-value-parser: 4.2.0
     dev: true
@@ -10311,17 +10311,6 @@ packages:
     resolution: {integrity: sha512-yjxDAYyK/pBvws9H4xKYpLDpYKEH6CzrBPAuXq3x18I+c/2MkVtT3qAr7Oloi6Dss9qNhPVueAAVU1CSeNDIXw==}
     dependencies:
       wcwidth: 1.0.1
-    dev: true
-
-  /browserslist@4.22.1:
-    resolution: {integrity: sha512-FEVc202+2iuClEhZhrWy6ZiAcRLvNMyYcxZ8raemul1DYVOVdFsbqckWLdsixQZCpJlwe77Z3UTalE7jsjnKfQ==}
-    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
-    hasBin: true
-    dependencies:
-      caniuse-lite: 1.0.30001637
-      electron-to-chromium: 1.4.812
-      node-releases: 2.0.14
-      update-browserslist-db: 1.0.16(browserslist@4.22.1)
     dev: true
 
   /browserslist@4.23.1:
@@ -15202,7 +15191,7 @@ packages:
       - babel-plugin-macros
     dev: true
 
-  /next@15.0.0-canary.64(@playwright/test@1.44.1)(react-dom@19.0.0-rc-85acf2d195-20240711)(react@19.0.0-rc-85acf2d195-20240711):
+  /next@15.0.0-canary.64(@playwright/test@1.44.1)(react-dom@19.0.0-rc-df5f2736-20240712)(react@19.0.0-rc-df5f2736-20240712):
     resolution: {integrity: sha512-QLZDRVtVpCdEi6JW0AVYFJwc/FY2kCmYs78BE0opYRMRiXFW9AX6ZEI/wUYAD2fMJH5aCC6Dp/1nxUj7JV9KOw==}
     engines: {node: '>=18.18.0'}
     hasBin: true
@@ -15230,9 +15219,9 @@ packages:
       caniuse-lite: 1.0.30001637
       graceful-fs: 4.2.11
       postcss: 8.4.31
-      react: 19.0.0-rc-85acf2d195-20240711
-      react-dom: 19.0.0-rc-85acf2d195-20240711(react@19.0.0-rc-85acf2d195-20240711)
-      styled-jsx: 5.1.6(react@19.0.0-rc-85acf2d195-20240711)
+      react: 19.0.0-rc-df5f2736-20240712
+      react-dom: 19.0.0-rc-df5f2736-20240712(react@19.0.0-rc-df5f2736-20240712)
+      styled-jsx: 5.1.6(react@19.0.0-rc-df5f2736-20240712)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.0.0-canary.64
       '@next/swc-darwin-x64': 15.0.0-canary.64
@@ -16878,15 +16867,6 @@ packages:
       react: 18.2.0
       scheduler: 0.23.0
 
-  /react-dom@19.0.0-rc-85acf2d195-20240711(react@19.0.0-rc-85acf2d195-20240711):
-    resolution: {integrity: sha512-t+yfrdxht6C3zQW3LkMJOA5N83/dnDgJLCRmv1kjqt4KVF2YcHwSxinDM5aQUreU3ZLKoiKlP0RJ8tVtLoIjNw==}
-    peerDependencies:
-      react: 19.0.0-rc-85acf2d195-20240711
-    dependencies:
-      react: 19.0.0-rc-85acf2d195-20240711
-      scheduler: 0.25.0-rc-85acf2d195-20240711
-    dev: false
-
   /react-dom@19.0.0-rc-cc1ec60d0d-20240607(react@19.0.0-rc-cc1ec60d0d-20240607):
     resolution: {integrity: sha512-paspD9kAfKKuURVwKWJ0/g3qYw1DGi9h1k9xQV2iQN9cSVZ4JAOD727yjVLyp1zdzsoygjFfLMtSBdZ+oERYvA==}
     peerDependencies:
@@ -16895,6 +16875,15 @@ packages:
       react: 19.0.0-rc-cc1ec60d0d-20240607
       scheduler: 0.25.0-rc-cc1ec60d0d-20240607
     dev: true
+
+  /react-dom@19.0.0-rc-df5f2736-20240712(react@19.0.0-rc-df5f2736-20240712):
+    resolution: {integrity: sha512-ttLP75GOlhpY7rSkUmamEJoSclcJq27JH0TthsbkJC5jg4bE2VSB8BUs2hm22GX9sxvY8oZmtjbkka0nkdPhTg==}
+    peerDependencies:
+      react: 19.0.0-rc-df5f2736-20240712
+    dependencies:
+      react: 19.0.0-rc-df5f2736-20240712
+      scheduler: 0.25.0-rc-df5f2736-20240712
+    dev: false
 
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -16933,15 +16922,15 @@ packages:
     dependencies:
       loose-envify: 1.4.0
 
-  /react@19.0.0-rc-85acf2d195-20240711:
-    resolution: {integrity: sha512-w9QftG0sXaZ/dMbPN2JJn79dMU0sSFYtEZl4BqPQT9+NPfvCNcZNGXfC077Tg8xjL749Ro+Wh5h/bE+v5bda5A==}
-    engines: {node: '>=0.10.0'}
-    dev: false
-
   /react@19.0.0-rc-cc1ec60d0d-20240607:
     resolution: {integrity: sha512-q8A0/IdJ2wdHsjDNO1igFcSSFIMqSKmO7oJZtAjxIA9g0klK45Lxt15NQJ7z7cBvgD1r3xRTtQ/MAqnmwYHs1Q==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /react@19.0.0-rc-df5f2736-20240712:
+    resolution: {integrity: sha512-EskZQiyMOtoyC5P22HjB2vfLywcdko3TxknC6c+NBmlqjWxi4P70iR5/79PD6xj5f49jljuV9+/CH0N0brSxJg==}
+    engines: {node: '>=0.10.0'}
+    dev: false
 
   /read-cache@1.0.0:
     resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==}
@@ -17353,13 +17342,13 @@ packages:
     dependencies:
       loose-envify: 1.4.0
 
-  /scheduler@0.25.0-rc-85acf2d195-20240711:
-    resolution: {integrity: sha512-ilgNtkO5RzWEUBa7RKTyCF7e6+/wcV6Z4MjUDyqem3jnjEpdmxfX2LcuCBAFwcoYJJnOLLuXNTAdBsbQdj7yYw==}
-    dev: false
-
   /scheduler@0.25.0-rc-cc1ec60d0d-20240607:
     resolution: {integrity: sha512-yFVKy6SDJkN2bOJSeH6gNo4+1MTygTZXnLRY5IHvEB6P9+O6WYRWz9PkELLjnl64lQwRgiigwzWQRSMNEboOGQ==}
     dev: true
+
+  /scheduler@0.25.0-rc-df5f2736-20240712:
+    resolution: {integrity: sha512-3qtBdd7ACjA/UuRYvn7rltaMRsnSCtycf3bO8sepp+L4cyPP3k6knBl7hqybdkczmXKWHkxyYAuzX61nXKEP1g==}
+    dev: false
 
   /schema-utils@3.3.0:
     resolution: {integrity: sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==}
@@ -18018,23 +18007,6 @@ packages:
       react: 18.2.0
     dev: false
 
-  /styled-jsx@5.1.6(react@19.0.0-rc-85acf2d195-20240711):
-    resolution: {integrity: sha512-qSVyDTeMotdvQYoHWLNGwRFJHC+i+ZvdBRYosOFgC+Wg1vx4frN2/RG/NA7SYqqvKNLf39P2LSRA2pu6n0XYZA==}
-    engines: {node: '>= 12.0.0'}
-    peerDependencies:
-      '@babel/core': '*'
-      babel-plugin-macros: '*'
-      react: '>= 16.8.0 || 17.x.x || ^18.0.0-0 || ^19.0.0-0'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-      babel-plugin-macros:
-        optional: true
-    dependencies:
-      client-only: 0.0.1
-      react: 19.0.0-rc-85acf2d195-20240711
-    dev: false
-
   /styled-jsx@5.1.6(react@19.0.0-rc-cc1ec60d0d-20240607):
     resolution: {integrity: sha512-qSVyDTeMotdvQYoHWLNGwRFJHC+i+ZvdBRYosOFgC+Wg1vx4frN2/RG/NA7SYqqvKNLf39P2LSRA2pu6n0XYZA==}
     engines: {node: '>= 12.0.0'}
@@ -18051,6 +18023,23 @@ packages:
       client-only: 0.0.1
       react: 19.0.0-rc-cc1ec60d0d-20240607
     dev: true
+
+  /styled-jsx@5.1.6(react@19.0.0-rc-df5f2736-20240712):
+    resolution: {integrity: sha512-qSVyDTeMotdvQYoHWLNGwRFJHC+i+ZvdBRYosOFgC+Wg1vx4frN2/RG/NA7SYqqvKNLf39P2LSRA2pu6n0XYZA==}
+    engines: {node: '>= 12.0.0'}
+    peerDependencies:
+      '@babel/core': '*'
+      babel-plugin-macros: '*'
+      react: '>= 16.8.0 || 17.x.x || ^18.0.0-0 || ^19.0.0-0'
+    peerDependenciesMeta:
+      '@babel/core':
+        optional: true
+      babel-plugin-macros:
+        optional: true
+    dependencies:
+      client-only: 0.0.1
+      react: 19.0.0-rc-df5f2736-20240712
+    dev: false
 
   /stylehacks@7.0.2(postcss@8.4.39):
     resolution: {integrity: sha512-HdkWZS9b4gbgYTdMg4gJLmm7biAUug1qTqXjS+u8X+/pUd+9Px1E+520GnOW3rST9MNsVOVpsJG+mPHNosxjOQ==}
@@ -19205,17 +19194,6 @@ packages:
       pathe: 1.1.2
       pkg-types: 1.1.3
       unplugin: 1.11.0
-
-  /update-browserslist-db@1.0.16(browserslist@4.22.1):
-    resolution: {integrity: sha512-KVbTxlBYlckhF5wgfyZXTWnMn7MMZjMu9XG8bPlliUOP9ThaF4QnhP8qrjrH7DRzHfSk0oQv1wToW+iA5GajEQ==}
-    hasBin: true
-    peerDependencies:
-      browserslist: '>= 4.21.0'
-    dependencies:
-      browserslist: 4.22.1
-      escalade: 3.1.2
-      picocolors: 1.0.1
-    dev: true
 
   /update-browserslist-db@1.0.16(browserslist@4.23.1):
     resolution: {integrity: sha512-KVbTxlBYlckhF5wgfyZXTWnMn7MMZjMu9XG8bPlliUOP9ThaF4QnhP8qrjrH7DRzHfSk0oQv1wToW+iA5GajEQ==}
